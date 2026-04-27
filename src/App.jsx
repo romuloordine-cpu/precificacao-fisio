@@ -307,7 +307,7 @@ export default function App() {
                 <ResultRow label="Consultas produtivas" value={`${calc.consultasMes} / mÃªs`} />
                 <ResultRow label="Faturamento bruto" value={formatBRL(calc.faturamentoMes)} />
                 <ResultRow label="Total de custos fixos" value={formatBRL(calc.totalFixo)} />
-                <ResultRow label="Total de custos variÃ¡veis" value={formatBRL(calc.custoVarFinal * calc.consultasMes} />
+                <ResultRow label="Total de custos variÃ¡veis" value={formatBRL(calc.custoVarFinal * calc.consultasMes)} />
                 <ResultRow label="ð° Lucro lÃ­quido mensal" value={formatBRL(calc.lucroMes)} highlight />
                 <ResultRow label="Lucro anual projetado" value={formatBRL(calc.lucroMes * 12)} />
               </Card>
